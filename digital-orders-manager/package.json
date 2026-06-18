@@ -1,0 +1,14 @@
+{
+  "name": "digital-orders-manager",
+  "version": "1.0.0",
+  "description": "Build tools for DOM plugin",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "lint:js": "wp-scripts lint-js",
+    "lint:css": "wp-scripts lint-css"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^26.0"
+  }
+}

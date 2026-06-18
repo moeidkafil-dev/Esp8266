@@ -1,0 +1,41 @@
+```
+# Dependencies
+vendor/
+node_modules/
+
+# Build artifacts
+dist/
+build/
+*.min.css
+*.min.js
+*.css.map
+*.js.map
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# WordPress specific
+wp-content/cache/
+*.sql
+
+# Tests
+.coverage
+coverage/
+htmlcov/
+```

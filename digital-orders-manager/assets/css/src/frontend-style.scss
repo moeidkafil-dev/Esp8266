@@ -1,0 +1,149 @@
+// Frontend styles
+.dom-create-order-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.dom-create-order-form h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.dom-create-order-form p {
+    margin-bottom: 20px;
+}
+
+.dom-create-order-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+.dom-create-order-form input[type="email"],
+.dom-create-order-form input[type="text"],
+.dom-create-order-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.dom-create-order-form input:focus {
+    border-color: #0073aa;
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 115, 170, 0.3);
+}
+
+.dom-create-order-form .button-primary {
+    background: #0073aa;
+    border-color: #005177;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.dom-create-order-form .button-primary:hover {
+    background: #005177;
+    border-color: #003d5c;
+}
+
+.dom-notice {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 4px solid;
+    border-radius: 3px;
+}
+
+.dom-notice-success {
+    background-color: #f0f9f4;
+    border-left-color: #28a745;
+    color: #1e5f34;
+}
+
+.dom-notice-error {
+    background-color: #fcf0f1;
+    border-left-color: #dc3545;
+    color: #8b1c23;
+}
+
+.dom-order-status {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 25px;
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.dom-order-status h3 {
+    margin-top: 0;
+    color: #333;
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 10px;
+}
+
+.dom-order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.dom-order-table th,
+.dom-order-table td {
+    padding: 12px 10px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.dom-order-table th {
+    font-weight: 600;
+    color: #555;
+    width: 140px;
+}
+
+.dom-order-table tr:last-child td {
+    border-bottom: none;
+}
+
+.dom-order-table .button {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #0073aa;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.dom-order-table .button:hover {
+    background: #005177;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .dom-create-order-form,
+    .dom-order-status {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .dom-order-table th,
+    .dom-order-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .dom-order-table th {
+        padding-bottom: 5px;
+    }
+}
