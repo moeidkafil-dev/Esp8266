@@ -1,43 +1,41 @@
 ```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
 # Dependencies
-.venv/
-venv/
+vendor/
 node_modules/
 
 # Build artifacts
 dist/
 build/
-target/
+*.min.css
+*.min.js
+*.css.map
+*.js.map
 
-# Coverage
-.coverage
-coverage/
-htmlcov/
+# Logs
+*.log
 
-# Testing
-.pytest_cache/
-.mypy_cache/
+# Environment
+.env
+.env.local
+.env.*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
 
 # OS
 .DS_Store
 Thumbs.db
+
+# WordPress specific
+wp-content/cache/
+*.sql
+
+# Tests
+.coverage
+coverage/
+htmlcov/
 ```
